@@ -6,6 +6,9 @@ var About = React.createClass({
         return (
             <div>
                 <h1>Its your first SPA application powered by ReactJs</h1>
+                {
+                    console.log("What's up!!")
+                }
             </div>
         )
     }
