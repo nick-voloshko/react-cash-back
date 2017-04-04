@@ -11,6 +11,7 @@ var Home = React.createClass({
         return (
             <div>
                 <div className="App">
+                    <h1 className="title">Title</h1>
                     <div className="App-header">
                         <h2>Welcome to React</h2>
                         <p>New Scting Andrey</p>
