@@ -15,8 +15,6 @@ var Home = React.createClass({
                         <h2>Welcome to React</h2>
                         <p>New Scting Andrey</p>
                     </div>
-                    <p>ERROR</p>
-                    <p>ERROR2</p>
 					<div className="App-string">
 						<h4>Some string</h4>
 						<h4>Some string 2</h4>
