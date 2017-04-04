@@ -5,7 +5,7 @@ import {startRemovePaymentFromUserAction, startUpdatePaymentOfUserAction} from '
 
 var Payment = React.createClass({
 
-    onRemovePayment: function () {
+    onRemovePaymentSecondary: function () {
         let {userId, payment, dispatch} = this.props;
 
         dispatch(startRemovePaymentFromUserAction(userId, payment.id));
@@ -46,7 +46,7 @@ var Payment = React.createClass({
                         amount
                     });
                 }}/></td>
-                <td><button onClick={this.onRemovePayment}>X</button></td>
+                <td><button onClick={this.onRemovePaymentSecondary}>X</button></td>
                 <td><button onClick={this.onUpdatePayment}>Save</button></td>
             </tr>
         )
